@@ -1,0 +1,37 @@
+{
+  "name": "gulp-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "author": "cprKorzh",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "browser-sync": "^3.0.2",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-fonter": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-include": "^2.4.1",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^9.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-svg-sprite": "^2.0.3",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-webp": "^5.0.0",
+    "postcss": "^8.4.33",
+    "sass": "^1.70.0"
+  }
+}
