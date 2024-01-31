@@ -55,7 +55,7 @@ function browserRefrehs() {
 }
 
 function cleanDist() {
-    return del(['dist/**/*', '!dist']);
+    return del(['css', 'fonts', 'img', 'js', 'index.html']);
 }
 
 function images() {
@@ -118,7 +118,7 @@ function building() {
         'app/js/main.min.js',
         'app/index.html'
     ], {base: 'app'})
-        .pipe(dest('dist'))
+        .pipe(dest('./'))
 }
 
 //exports.images = images;
